@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  font-size: 12px;
 }
 div {
   top: 0px;
@@ -14,22 +15,24 @@ div {
 h1 {
   font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
   margin-bottom: 15px;
-  font-size: 140%;
+  font-size: 175%;
   text-align: center;
 }
 
 h2{
   font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
-  border:  2px solid black;
-  font-size: 90%;
+  border:  1px solid black;
+  font-size: 125%;
   text-align: center;
 
   width: 100px;
-  margin-right: 10px;
-  margin-top: 50px;
-  margin-left: 10px;
-  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
   float: right;
+  position: relative;
+  z-index: 1000;
   top: 0px;
   right: 0px;
 
@@ -37,13 +40,13 @@ h2{
 #h21{
   color: #000000;
   background-color: #FFB3CC;
-
-
 }
+
 #h22{
   color: #FFFFFF;
   background-color: #CC0000;
   }
+
 #h23{
   color: #000000;
   background-color: #FFE6CC;
@@ -51,23 +54,26 @@ h2{
 }
 
 p {
-  border: 2px solid black;
+  border: 1px solid black;
   background-color: #CCCCFF;
   /*width: 90%;*/
   height: 150px;
   margin-right: 10px;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  padding: 0px 10px 0px 10px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  padding: 20px 10px 0px 10px;
   font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
-  font-size: 110%;
+  
   text-align: left;
   color: #000000;
   overflow: hidden;
+  position: relative;
+  z-index: -1000;
 
-  top: 0px;
-  right: 0px;
+  top: -23px;
+  right: -10px;
+  bottom: -10px;
   clear: right;
 
 
@@ -86,7 +92,7 @@ p {
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: right;
-    position: relative;
+    padding: 0px 10px 0px 0px;
     margin: 0px;
     /*border: 1px solid green;*/
   }
@@ -132,7 +138,7 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: right;
-    position: relative;
+    padding: 0px 10px 0px 0px;
     margin: 0px;
     /*border: 1px solid green;*/
   }
