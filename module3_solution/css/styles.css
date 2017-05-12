@@ -40,7 +40,7 @@ body {
   /*text-shadow: 1px 1px 1px #222;*/
   font-weight: bold;
   line-height: .75;
-  font-size: 6vw;
+
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -61,8 +61,8 @@ body {
   font-family: 'NTR', sans-serif;
   font-weight: bold;
 
-  font-size: 1.2em;
-  font-size: 3vw;
+  font-size: 1.3em;
+
   margin-top: 1px;
   margin-bottom: 0;
   padding-top: 10px;
@@ -85,7 +85,7 @@ body {
 
 h1 {
 
-  font-size: 5vw;
+  font-size: 1.7em;
   /*color: #f6b319;*/
   color: #d2691e;
   text-shadow: 1px 1px 1px #222;
@@ -99,13 +99,14 @@ div .col-lg-12 p, div .col-md-12 p, div .col-sm-12 p, div .col-xs-12 p {
   /*box-shadow: 0 0 50px #3F0C1F;*/
   margin: 10px, 20px;
   position: relative;
+  top:0px;
   width: 100%;
   border-style: solid;
   border-color: #F0E68C;
   border-width: 5px;
   border-radius: 10px;
   padding: 10px;
-  padding-top: 90px;
+  padding-top: 70px;
   font-size: 1.3em;
 }
 #chicken-category #beef-category #sushi-category {
@@ -117,7 +118,7 @@ div .col-lg-12 p, div .col-md-12 p, div .col-sm-12 p, div .col-xs-12 p {
 #chicken-category span, #beef-category span, #sushi-category span {
   color: #F0E68C;
   text-shadow: 1px 1px 1px #222;
-  font-size: 3vw;
+  font-size: 1.5em;
   position: absolute;
   top: 0;
   right: 0;
