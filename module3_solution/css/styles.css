@@ -62,7 +62,7 @@ body {
   font-weight: bold;
 
   font-size: 1.2em;
-  font-size: 4vw;
+  font-size: 3vw;
   margin-top: 1px;
   margin-bottom: 0;
   padding-top: 10px;
@@ -105,7 +105,8 @@ div .col-lg-12 p, div .col-md-12 p, div .col-sm-12 p, div .col-xs-12 p {
   border-width: 5px;
   border-radius: 10px;
   padding: 10px;
-  padding-top: 40px;
+  padding-top: 70px;
+  font-size: 1.1em;
 }
 #chicken-category #beef-category #sushi-category {
   font-weight: bold;
