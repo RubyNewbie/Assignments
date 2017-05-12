@@ -1,0 +1,130 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  /*background-color: #61122f;*/
+  background-color: #f6b319;
+
+  font-family: 'NTR', sans-serif;
+}
+
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  height: inherit;
+}
+
+.navbar-default .navbar-toggle {
+  background-color: #D2691E;
+  border-color:  #F0E68C;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  border: 1px solid #F0E68C;
+}
+.navbar-default .navbar-toggle:hover {
+  background-color: #F0E68C;
+  border-color: #D2691E;
+}
+.navbar-default .navbar-toggle:hover .icon-bar {
+  border: 1px solid #D2691E;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Special Elite', cursive;
+  color: #B8860B;
+  font-size: 2em;
+  /*text-shadow: 1px 1px 1px #222;*/
+  font-weight: bold;
+  line-height: .75;
+  font-size: 6vw;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#collapsable-nav {
+  border: 0;
+  margin-bottom: -10px;
+  padding-bottom: 0;
+}
+
+
+
+#nav-list a {
+  color: #d2691e;
+  background-color: #F0E68C;
+  text-align: center;
+  font-family: 'NTR', sans-serif;
+  font-weight: bold;
+
+  font-size: 1.2em;
+  font-size: 4vw;
+  margin-top: 1px;
+  margin-bottom: 0;
+  padding-top: 10px;
+
+}
+
+#nav-list a:hover {
+
+  /*background: #E7E7E7;*/
+  background: #d2691e; /*naartjie*/
+  font-weight: bold;
+  color: #F0E68C;
+}
+
+ .navbar-header button.navbar-toggle {
+   clear: both;
+   margin-top: -60px;
+}
+
+
+h1 {
+
+  font-size: 5vw;
+  /*color: #f6b319;*/
+  color: #d2691e;
+  text-shadow: 1px 1px 1px #222;
+}
+
+
+div .col-lg-12 p, div .col-md-12 p, div .col-sm-12 p, div .col-xs-12 p {
+  height: 1000px;
+  color: #F0E68C;
+  background-color: #D2691E;
+  /*box-shadow: 0 0 50px #3F0C1F;*/
+  margin: 10px, 20px;
+  position: relative;
+  width: 100%;
+  border-style: solid;
+  border-color: #F0E68C;
+  border-width: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  padding-top: 40px;
+}
+#chicken-category #beef-category #sushi-category {
+  font-weight: bold;
+  padding: 10px;
+
+
+}
+#chicken-category span, #beef-category span, #sushi-category span {
+  color: #F0E68C;
+  text-shadow: 1px 1px 1px #222;
+  font-size: 3vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px, 20px,0px;
+  text-align: center;
+  font-weight: bold;
+  z-index: 10;
+  width: 100%;
+  padding-top: 10px;
+
+}
