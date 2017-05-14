@@ -52,7 +52,13 @@ body {
   padding-bottom: 0;
 }
 
+#chicken-tile #to-the-top, #beef-tile #to-the-top, #sushi-tile #to-the-top {
+  color: #F0E68C;
+  position: absolute;
+  width: 100%;
+  bottom: 3px;
 
+}
 
 #nav-list a {
   color: #d2691e;
@@ -92,41 +98,68 @@ h1 {
 }
 
 
-div .col-lg-12 p, div .col-md-12 p, div .col-sm-12 p, div .col-xs-12 p {
-  height: 1000px;
-  color: #F0E68C;
-  background-color: #D2691E;
-  /*box-shadow: 0 0 50px #3F0C1F;*/
-  margin: 10px, 20px;
+div .col-lg-4  , div .col-md-4  , div .col-sm-12 , div .col-xs-12 {
+
+
+  margin: 10px, 5px;
+  margin-bottom: 10px;
+  padding: 5px;
   position: relative;
   top:0px;
+  font-size: 1.3em;
+  text-overflow: clip;
+  color: black;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+ position: relative;
+  color: #F0E68C;
+  background-color: #D2691E;
   width: 100%;
+  height: 100%;
+
   border-style: solid;
   border-color: #F0E68C;
   border-width: 5px;
   border-radius: 10px;
   padding: 10px;
-  padding-top: 40px;
-  font-size: 1.3em;
+  z-index: 20;
 }
-#chicken-category #beef-category #sushi-category {
+
+#chicken-tile p, #beef-tile p, #sushi-tile p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+
+}
+div .col-lg-4 p , div .col-md-4 p , div .col-sm-12 p, div .col-xs-12 p {
+  height: 700px;
+  overflow: hidden;
+}
+
+
+
+
+#chicken-category, #beef-category, #sushi-category {
   font-weight: bold;
-  padding: 10px;
+  padding: 5px;
 
 
 }
-#chicken-category span, #beef-category span, #sushi-category span {
+#chicken-category h3, #beef-category h3, #sushi-category h3 {
   color: #F0E68C;
   text-shadow: 1px 1px 1px #222;
   font-size: 1.5em;
   position: absolute;
   top: 0;
   right: 0;
-  margin: 10px, 20px,0px;
+  margin: 0px, 5px,0px;
   text-align: center;
   font-weight: bold;
   z-index: 10;
   width: 100%;
-  padding-top: 10px;
+  padding-top: 0px;
 
 }
